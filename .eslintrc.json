@@ -11,5 +11,12 @@
     "project": "./tsconfig.json"
   },
   "plugins": ["@typescript-eslint"],
-  "rules": {}
+  "rules": {
+    "class-methods-use-this": "off",
+    "import/no-unresolved": "off",
+    "no-undef": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "no-unused-vars": "off"
+  }
 }
