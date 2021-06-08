@@ -21,6 +21,10 @@
     "consistent-return": "off",
     "no-restricted-syntax": "off",
     "comma-dangle": "off",
-    "max-classes-per-file": "off"
+    "max-classes-per-file": "off",
+    "import/no-extraneous-dependencies": [
+      "off",
+      { "devDependencies": ["**/*.test.js", "**/*.spec.js"] }
+    ]
   }
 }
